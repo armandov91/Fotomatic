@@ -28,6 +28,10 @@ html {
   display: block;
 }
 
+.banner {
+  background-image: url("../images/banner-landingpage.jpg");
+}
+
 @media only screen and (max-width: 760px) {
   .main-content {
     top: 2.5625rem;
@@ -41,6 +45,7 @@ header {
   width: 100%;
   border-bottom: solid 1px #c6c1c1;
   background-color: white;
+  z-index: 2;
 }
 
 header .content {
@@ -120,6 +125,9 @@ header .mobile {
 }
 
 #sign-up-cta {
+  position: relative;
+  top: 170px;
+  left: 10%;
   padding: 0 5rem 2.5rem 5rem;
   border: solid 1px #979797;
   border-radius: 4px;
